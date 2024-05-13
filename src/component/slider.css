@@ -1,0 +1,43 @@
+
+
+.banner-main {
+    width: 100%;
+    float: left;
+    background: url("https://source.unsplash.com/random/900x400/?Event");
+    background-size: cover;
+    background-position: top center;
+    margin-top: 5%;
+}
+
+.containeer {
+    width: 100%; /* Change to percentage for responsiveness */
+    max-width: 1200px; /* Add max-width for larger screens */
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    float: left;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    text-align: center;
+    float: left;
+}
+
+/* Add media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .banner {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .containeer {
+        padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+}
